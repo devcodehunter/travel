@@ -1,0 +1,30 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	font-size: 1rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.large-hero {
+	position: relative;
+}
+
+.large-hero .large-hero__text-content {
+		position: absolute;
+		top:50%;
+		left:0;
+		width: 100%;
+		text-align: center;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+
+	}
+
+.large-hero .large-hero__title {
+		font-size: 1.88rem
+	}
+
