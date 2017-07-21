@@ -9,8 +9,11 @@
 		background-color: $orange;
 	}
 	&__large {
-		font-weight: 400;
-		font-size: 1.2rem;
-		padding: 0.4375rem 0.9375rem;
+		font-weight: 300;
+		padding: 0.5rem .8rem;
+
+		@mixin atSmall {
+			font-size: 1.2rem;
+		}
 	}
 }
