@@ -733,16 +733,3 @@ a {
 .generic-content-container p a {
 		font-weight: 700;
 	}
-
-.count {
-	padding: 10px 0;
-	width: 100%;
-	text-align: center;
-	background-color: green;
-}
-
-.count li {
-		width: 100px;
-		list-style: none;
-		display: inline-block;
-	}
