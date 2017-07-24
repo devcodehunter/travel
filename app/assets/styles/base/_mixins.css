@@ -1,16 +1,38 @@
-@define-mixin atSmall {
+/*Media Query With Mixin*/
+
+@define-mixin atSmall 
+{
 	@media (min-width: 530px){
 		@mixin-content;
 	}
 }
-@define-mixin atMedium {
+
+@define-mixin atMedium 
+{
 	@media (min-width: 830px) {
 		@mixin-content;
 	}
 }
 
-@define-mixin atLarge {
+@define-mixin atLarge 
+{
 	@media (min-width: 1200px) {
 		@mixin-content;
 	}
 }
+
+/*Media Query End*/
+
+/*Clearfix Method*/
+
+@define-mixin clearfix
+{
+	&::after
+	{
+		content: "";
+		clear: both;
+		display: table;
+	}
+}
+
+/*Clearfix End*/

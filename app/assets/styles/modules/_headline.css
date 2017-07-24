@@ -1,5 +1,5 @@
 .headline {
-	font-weight: 300;
+	font-weight: 700;
 	font-size: 1.9rem;
 	color:$mainBlue;
 
@@ -32,5 +32,8 @@
 	}
 	&__b-margin-large {
 		margin-bottom: 1.6em; 
+	}
+	&__t-margin-clear {
+		margin-top: 0;
 	}
 }
