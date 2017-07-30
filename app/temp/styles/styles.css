@@ -690,7 +690,14 @@ a {
 	}
 
 .row__gutter-large > div:first-child {
-		padding-right: 50px; 
+		padding-right: 0;
+	}
+
+@media (min-width: 830px) {
+
+.row__gutter-large > div:first-child {
+			padding-right: 50px
+	}
 	}
 
 .row__gutter > div:last-child {
@@ -698,12 +705,13 @@ a {
 	}
 
 .row__gutter-large > div:last-child {
-		padding-left: 50px; 
+		padding-left: 0;
 	}
 
-@media (max-width: 830px) {
-		.row__gutter-large > div:last-child {
-		padding-left: 0; 
+@media (min-width: 830px) {
+
+.row__gutter-large > div:last-child {
+			padding-left: 50px
 	}
 	}
 
@@ -818,8 +826,7 @@ a {
 		text-align: center;
 		font-size: 1.6rem;
 		font-weight: 300;
-		margin-top: .7em;
-		margin-bottom: 0.8rem;			
+		margin:0.7rem 0 .8rem 0;			
 	}
 
 @media (min-width: 530px){

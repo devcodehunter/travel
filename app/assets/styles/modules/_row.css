@@ -10,21 +10,20 @@
 		padding-right: 33px; 
 	}
 	&__gutter-large > div:first-child {
-		padding-right: 50px; 
+		padding-right: 0; 
+		@mixin atMedium {
+			padding-right: 50px;
+		}
 	}
 	&__gutter > div:last-child {
 		padding-left: 33px; 
 	}
 	&__gutter-large > div:last-child {
-		padding-left: 50px; 
+		padding-left: 0;
+		@mixin atMedium {
+			padding-left: 50px; 
+		}
 	}
-
-	@mixin noPaddingOnRightFeatureItem {
-		&__gutter-large > div:last-child {
-		padding-left: 0; 
-	}
-	}
-
 	
 	@mixin atMedium {
 		
