@@ -21,6 +21,12 @@
 	}
 }
 
+
+@define-mixin noPaddingOnRightFeatureItem{
+	@media (max-width: 830px) {
+		@mixin-content;
+	}
+}
 /*Media Query End*/
 
 /*Clearfix Method*/
