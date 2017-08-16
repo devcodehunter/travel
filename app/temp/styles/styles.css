@@ -620,6 +620,11 @@ a {
 		color: #FFF;
 	}
 
+.page-section__testimonials {
+		background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+		background-size: cover;
+	}
+
 .headline {
 	font-weight: 700;
 	font-size: 1.9rem;
@@ -685,8 +690,8 @@ a {
 		margin-bottom: 1rem;
 	}
 
-.row__gutter > div:first-child {
-		padding-right: 33px; 
+.row__gutter > div:last-child {
+		padding-left: 33px; 
 	}
 
 .row__gutter-large > div:first-child {
@@ -698,10 +703,6 @@ a {
 .row__gutter-large > div:first-child {
 			padding-right: 50px
 	}
-	}
-
-.row__gutter > div:last-child {
-		padding-left: 33px; 
 	}
 
 .row__gutter-large > div:last-child {
@@ -740,7 +741,7 @@ a {
 		}
 		
 		.row__medium-8-smaller {
-		width: 63%;
+			width: 63%;
 		}
 	}
 
@@ -764,7 +765,7 @@ a {
 .section-title {
 	text-align: center;
 	font-size: 2.55rem;
-	font-weight: 500;
+	font-weight: 300;
 }
 
 @media (min-width: 530px){
@@ -775,24 +776,30 @@ a {
 	}
 
 .section-title strong {
-		font-weight: 300;
+		font-weight: 500;
 	}
 
 .section-title__icon {
 		display: block;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: .7rem;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: .7rem;
 	}
 
 @media (min-width: 530px){
 
 .section-title__icon {
+			position: relative;
+			top: 8px;
 			margin-right: .5rem;
 			margin-left: 0;
 			display: inline-block;
 			margin-bottom: 0
 	}
+	}
+
+.section-title__blue {
+		color: #2f5572;
 	}
 
 .feature-item {
@@ -836,5 +843,37 @@ a {
 		font-size: 1.875rem;
 		margin-top: 1em			
 	}
+	}
+
+.testimonials {
+	background-color: rgba(255, 255, 255, .7);
+	padding: 0 1.8125rem 1px 1.8125rem;
+}
+
+.testimonials__image {
+		border-radius: 80px;
+		height: 160px;
+		width: 160px;
+		overflow: hidden;
+		margin: 0 auto 0 auto;
+		position: relative;
+		top: -80px;
+		margin-bottom: -80px;
+	}
+
+.testimonials__title {
+		color: #2f5572;
+		text-align: center;
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0;
+	}
+
+.testimonials__subtitle {
+		text-align: center;
+		color: #ff9933;
+		font-size: 0.975rem;
+		font-weight: 400;
+		margin: 0.25rem 1rem 0;
 	}
 

@@ -6,8 +6,9 @@
 		margin-bottom: 1rem;
 	}
 
-	&__gutter > div:first-child {
-		padding-right: 33px; 
+	
+	&__gutter > div:last-child {
+		padding-left: 33px; 
 	}
 	&__gutter-large > div:first-child {
 		padding-right: 0; 
@@ -15,9 +16,7 @@
 			padding-right: 50px;
 		}
 	}
-	&__gutter > div:last-child {
-		padding-left: 33px; 
-	}
+	
 	&__gutter-large > div:last-child {
 		padding-left: 0;
 		@mixin atMedium {
@@ -50,7 +49,7 @@
 		}
 		
 		&__medium-8-smaller {
-		width: 63%;
+			width: 63%;
 		}
 	}
 
